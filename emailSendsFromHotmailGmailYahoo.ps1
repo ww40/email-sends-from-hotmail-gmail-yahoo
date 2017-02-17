@@ -1,3 +1,5 @@
+# Prerequisite for Gmail accounts: https://support.google.com/accounts/answer/6010255
+
 $userHotmail = "YOUR_EMAIL_HERE@hotmail.com"
 $passHotmail = ConvertTo-SecureString -String "YOUR_PASSWORD_HERE" -AsPlainText -Force
 $credHotmail = New-Object System.Management.Automation.PSCredential $userHotmail, $passHotmail
